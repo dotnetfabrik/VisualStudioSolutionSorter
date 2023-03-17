@@ -4,6 +4,9 @@
     <AssemblyName>VisualStudioSolutionSorter.Tests</AssemblyName>
     <ProjectGuid>{A8E9F0A4-B60C-4B1F-8958-E9E94E5E3911}</ProjectGuid>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
   </PropertyGroup>
 
   <ItemGroup>

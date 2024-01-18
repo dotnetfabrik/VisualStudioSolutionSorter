@@ -3,7 +3,7 @@
   <PropertyGroup>
     <AssemblyName>VisualStudioSolutionSorter.Tests</AssemblyName>
     <ProjectGuid>{A8E9F0A4-B60C-4B1F-8958-E9E94E5E3911}</ProjectGuid>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net8</TargetFramework>
 
     <IsPackable>false</IsPackable>
     <IsTestProject>true</IsTestProject>
@@ -25,9 +25,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.7.2" />
-    <PackageReference Include="NUnit" Version="3.13.3" />
-    <PackageReference Include="NUnit3TestAdapter" Version="4.4.2" />
+    <PackageReference Include="NUnit" Version="4.0.1" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.5.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
   </ItemGroup>
 
 </Project>
